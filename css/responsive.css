@@ -156,11 +156,15 @@
         width: 20rem;
     }
     
+    .hero .up-side{
+    	position: relative;
+    }
     .hero .up-side img{
-        margin-top: 100rem;
-
-    
-    
+    	position: absolute;
+    	top: -8rem;
+    	left: -9rem;
+    	/*border: 2px solid black;*/
+    }
 }
 
 
