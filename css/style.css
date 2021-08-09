@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+
+/* Custom CSS Variables */
+:root{
+    --Dark-Blue: hsl(217, 28%, 15%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+    background-color: var(--Dark-Blue);
+}
+
+/* Navbar starts here */
+header{
+    height: 120px;
+    width: 100%;
+    /* border: 2px solid black; */
+}
+
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid blue; */
+    height: 120px;
+}
+
+header nav .left-side{
+    font-size: 1.5rem;
+    margin-left: 8rem;
+    cursor: pointer;
+    color: #fff;
+}
+
+
+header nav .right-side{
+    display: flex;
+    margin-right: 5rem;
+}
+
+header nav .right-side li{
+    list-style: none;
+}
+
+header nav .right-side li a{
+    padding: 1.5rem;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+header nav .right-side li a:hover{
+    text-decoration: underline;
+}
+
+
+/* Hero Sections Starts here */
+
+.hero{
+    /* border: 2px solid black; */
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 125vh;
+}
+
+
+.hero .down-side{
+    text-align: center;
+    /* border: 2px solid black; */
+    margin-bottom: 3rem;
+    color: #fff;
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+.hero .down-side h1{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.hero .down-side p{
+    /* border: 2px solid black; */
+    width: 30rem;
+    font-size: 1.2rem;
+}
+.hero .down-side button{
+    padding: 0.7rem 4rem;
+    border-radius: 2rem;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-top: 2rem;
+    /* font-weight: 900; */
+    transition: all 0.2s linear;
+}
+
+
+.hero .down-side button:hover{
+    background-color: hsl(176, 68%, 64%);
+}
+
+
+
+/* Features Section Starts Here  */
+

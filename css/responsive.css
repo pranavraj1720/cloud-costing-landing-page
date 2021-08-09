@@ -1,0 +1,164 @@
+@media screen and (max-width: 1216px) {
+    header nav .left-side{
+        margin-left: 4rem;
+    }
+
+
+    header nav .right-side{
+        margin-right: 1rem;
+    }
+
+
+    .hero .down-side h1{
+        font-size: 1.9rem;
+    }
+    
+    
+    .hero .down-side p{
+        font-size: 0.9rem;
+    }
+    
+    .hero .down-side button{
+        padding: 0.5rem 3   rem;
+    }
+
+
+    .hero .down-side img{
+        width: 1500px;   
+    }
+}
+
+
+
+@media screen and (max-width: 738px){
+
+
+    header{
+        height: 100px;
+        border: 2px solid black;
+    }
+    header nav{
+        height: 100px;
+    }
+    .hero .up-side img{
+        width: 450px;
+        margin-bottom: -10rem;
+        
+    }
+    .hero .down-side h1{
+        font-size: 1.9rem;
+    }
+    .hero .down-side p{
+        font-size: 0.9rem;
+    }
+    
+    .hero .down-side button{
+        padding: 0.5rem 3rem;
+    }
+    
+}
+
+
+@media screen and (max-width: 606px) {
+    
+    .hero .down-side h1{
+        font-size: 1.5rem;
+    }
+    .hero .down-side p{
+        font-size: 0.8rem;
+    }
+    
+    .hero .down-side button{
+        padding: 0.3rem 2rem;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 476px ){
+    .hero .up-side img{
+        width: 400px;
+        margin-bottom: -10rem;
+        
+    }
+
+    header nav .left-side {
+        font-size: 1rem;
+        margin-left: 2.5rem;
+    }
+
+    header nav .right-side{
+        margin-right: 0.5rem;
+    }
+
+    header nav .right-side li a{
+        padding: 1rem;
+    }
+
+
+    .hero .down-side h1{
+        font-size: 1.5rem;
+    }
+    .hero .down-side p{
+        font-size: 0.6rem;
+    }
+    
+    .hero .down-side button{
+        padding: 0.2rem 3rem;
+        font-size: 1.5rem;
+    }
+
+    .hero .down-side p{
+        font-size: 1rem;
+        /* border: 2px solid black; */
+        width: 20rem;
+    }
+
+    
+}
+
+
+@media screen and (max-width: 420px ){
+    .hero .up-side img{
+        width: 300px;
+        
+    }
+
+    header nav .left-side {
+        font-size: 1rem;
+        margin-left: 2.5rem;
+    }
+
+    header nav .right-side{
+        margin-right: 0.5rem;
+    }
+
+    header nav .right-side li a{
+        padding: 1rem;
+    }
+
+
+    .hero .down-side h1{
+        font-size: 1.2rem;
+        margin-top: -10rem;
+    }
+    .hero .down-side p{
+        font-size: 0.6rem;
+        /* border: 2px solid black; */
+    }
+    
+    .hero .down-side button{
+        padding: 0.2rem 3rem;
+        font-size: 1.5rem;
+    }
+
+    .hero .down-side p{
+        font-size: 1rem;
+        /* border: 2px solid black; */
+        width: 20rem;
+    }
+
+    
+    
+}
+
+
