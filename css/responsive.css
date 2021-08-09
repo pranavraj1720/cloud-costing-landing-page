@@ -155,15 +155,18 @@
         /* border: 2px solid black; */
         width: 20rem;
     }
-    
+
+
     .hero .up-side{
     	position: relative;
     }
     .hero .up-side img{
     	position: absolute;
     	top: -8rem;
-    	left: -9rem;
+    	left: -10rem;
+    	width: 340px;
     	/*border: 2px solid black;*/
+    }: 2px solid black;*/
     }
 }
 
